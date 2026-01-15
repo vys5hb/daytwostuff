@@ -27,11 +27,16 @@ df.head()
 # code can easily install all the exact same packages and versions that you used when you created the project
 # %%
 # Recipe
+# Go to GitHub and create a new repository.
+# Create a new codespace from the repository.
 # Open VS Code, at the top bar go to File and select "New Window". 
-# Then, click "Connect to" and select "Connect to Codespace", and choose the current codespace
+# Then, click "Connect to" and select "Connect to Codespace", and choose the new codespace created with your new repository
 # After the codespace is loaded, open the terminal and create a virtual environment using:
 # python3 -m venv .venv
 # Then active the virtual environment using:
 # source .venv/bin/activate
-# Next, install the packages you need using:
-# pip install -r requirements.txt
+# Add libraries and create a requirements.txt file using:
+# pip freeze > requirements.txt
+
+# Link to the new project working environment:
+# https://github.com/vys5hb/daytwostuff2
